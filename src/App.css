@@ -1,0 +1,39 @@
+/* Add this to App.css or index.css */
+.pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;  /* Change the global font here */
+    font-size: 16px;  /* Set a base font size (optional) */
+    color: #333;  /* Set a default text color (optional) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif;  /* Change heading fonts if desired */
+}
+
+p, .card-text {
+    font-family: 'Times New Roman', sans-serif;  /* Change the font for paragraph or specific classes */
+}
+
+/* App.css or index.css */
+body {
+    background-color: #070266; /* Replace with your desired color */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Optional: Set a global font */
+}
+
+.App {
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    background-color: #ffffff; /* Optional: Set a background color for the main app container */
+}
